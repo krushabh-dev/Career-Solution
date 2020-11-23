@@ -1,0 +1,49 @@
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3563cede; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3564ce; 
+}
+
+.nav-item a{
+    color: #000;
+    font: 600 0.875rem/0.875rem "Raleway", sans-serif;
+}
+
+h1 {
+    color: #000;
+    font-size: 56px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.about-btn {
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    line-height: 1;
+    margin: 10px;
+    border: 2px solid #8382fe;
+    display: inline;
+    background-image: -webkit-linear-gradient(0deg, #393c8b 0%, #3569d6 100%);
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none !important;
+}
