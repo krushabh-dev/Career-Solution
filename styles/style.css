@@ -17,12 +17,15 @@
   background: #3564ce; 
 }
 
-/*
-#head{
-  margin-top: 20px;
-  min-height: 500px;
+a:hover{
+  color: #397b8a;
+  text-decoration: none;
 }
-*/
+
+h1 span{
+  color: aqua;
+  font-weight: 600;
+}
 
 .txt{
   margin-top: 20px;
@@ -34,7 +37,7 @@
     font-size: 48px;
     color: #000000;
     max-width: 500px;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 #head p {
@@ -55,3 +58,20 @@
     color: #fff;
     border-radius: 50px;
 }
+
+@media (max-width: 768px){
+  .head-txt {
+      text-align: center!important;
+  }
+}
+
+/* */
+.h2bol{
+    position: relative;
+    font-size: 2.5em;
+    width: 80%;
+    }
+  .h2bol span{
+    color:inherit;
+    display:none;
+    }
