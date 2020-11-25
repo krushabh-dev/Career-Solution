@@ -17,15 +17,41 @@
   background: #3564ce; 
 }
 
-#nav{
-    max-height: 100vh;
-    min-height: 100vh;
-    background: aquamarine;
-    margin-left: auto;
+/*
+#head{
+  margin-top: 20px;
+  min-height: 500px;
+}
+*/
+
+.txt{
+  margin-top: 20px;
+  min-height: 500px;
 }
 
-#dis{
-    max-height: 100vh;
-    min-height: 100vh;
-    background: rgb(45, 95, 78);
+#head h1 {
+    font-family: "Lato-Light";
+    font-size: 48px;
+    color: #000000;
+    max-width: 500px;
+    margin-top: 70px;
+}
+
+#head p {
+    max-width: 450px;
+    margin: 20px 0;
+    margin-bottom: 40px;
+}
+
+#head a {
+    display: inline;
+    padding: 10px 30px;
+}
+
+.li-bag{
+    background-image: -webkit-linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+    font-size: 18px;
+    font-family: "OpenSans-Semibold";
+    color: #fff;
+    border-radius: 50px;
 }
