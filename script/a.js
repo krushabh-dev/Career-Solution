@@ -7,4 +7,4 @@ function rotator() {
     i = (i + 1)% word.length;
     word[i].style.display = 'initial';
 }
-setInterval(rotator , 1200);
+setInterval(rotator , 800);
