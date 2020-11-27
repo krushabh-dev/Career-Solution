@@ -179,12 +179,6 @@ h1 span{
     padding-bottom: 14px;
 }
 
-@media (max-width: 767px){
-  .il {
-    display: none;
-  }
-}
-
 .row_center{
   justify-content: center;
   text-align: center;
