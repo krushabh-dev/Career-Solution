@@ -202,8 +202,18 @@ h1 span{
     background-color: #0078ff;
 }
 
+#bannr{
+  position: relative;
+}
+
 .bannr-txt{
   text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.bannr-txt h1{
+  color: white;
 }
 
 #Subscribe{
