@@ -307,3 +307,19 @@ button, input {
     margin: 1.75rem auto;
 }
 }
+
+footer{
+  padding: 20px 0;
+  background: var(--gray-dark);
+  color: antiquewhite;
+}
+
+footer ul li{
+  list-style: none;
+}
+
+footer ul li a{
+  color: antiquewhite;
+  font: 400 0.875rem/1.375rem "Raleway", sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
