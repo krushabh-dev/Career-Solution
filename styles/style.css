@@ -46,6 +46,13 @@ h1 span{
   margin: 5px;
 }
 
+.navbar .nav-link {
+    opacity: 1 !important;
+    margin: 0 15px;
+    font-size: 14.5px;
+    font-weight: 500;
+}
+
 .navbar-light .navbar-toggler-icon {
     background-image: url('../images/b.svg');
 }
