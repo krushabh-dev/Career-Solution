@@ -107,6 +107,66 @@ h1 span{
 }
 
 /* */
+#Jobs, #Intern, #offcamp{
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+}
+
+#Jobs h2, #Intern h2, #offcamp h2 {
+    font: 400 2.0rem/2.0rem "", sans-serif;
+    font-size: 42px;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    font-family: math;
+}
+
+.owl-nav{
+  position: absolute;
+  top: 35%;
+  width: 100%;
+}
+
+.owl-nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-text{
+  padding: 0;
+  margin: 0;
+}
+
+.card{
+  height: 195px;
+  background: var(--white);
+  margin: 30px 5px;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow: 6px 3px 13px 0 rgba(0, 0, 0, 0.08);
+  border: none;
+}
+
+.card-title{
+  font-family: "Lato-Regular";
+  font-size: 19px;
+  color: #1d3ede;
+  text-transform: capitalize;
+}
+
+.owl-carousel .card .li-bag{
+  padding: 2px 20px 2px 20px;
+}
+
+.spl-background{
+  background: linear-gradient(0deg, #06c6f9 0%, #38eaf9 100%);
+}
+
+.spl-background h5{
+  color: white;
+  font-size: 48px;
+}
+
+/* */
 .h2bol{
     position: relative;
     }
